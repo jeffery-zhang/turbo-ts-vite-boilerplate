@@ -1,0 +1,17 @@
+{
+  "name": "@tvb/tools",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "lint": "eslint \"**/*.{ts,tsx}\""
+  },
+  "author": "jeffery-zhang",
+  "devDependencies": {
+    "@tvb/eslint-config": "workspace:^",
+    "@tvb/tsconfig": "workspace:^",
+    "eslint": "^8.42.0",
+    "typescript": "^5.1.3"
+  }
+}
